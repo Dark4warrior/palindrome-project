@@ -9,5 +9,7 @@ function isPalindrome(str) {
 
   return cleanStr === reversedStr;
 }
-  
+
+// Jsut s
+
 module.exports = { isPalindrome };

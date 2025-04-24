@@ -16,7 +16,7 @@ describe('isPalindrome function', () => {
     expect(isPalindrome('')).toBe(true);
   });
 
-  test('devrait être insensible à la casse', () => {
+  test('devrait être insensible à la casse lower/upper quoi', () => {
     expect(isPalindrome('Kayak')).toBe(true);
     expect(isPalindrome('RadAr')).toBe(true);
   });
